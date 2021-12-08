@@ -7,7 +7,7 @@ html{
 }
 
 body{
-    background-color: #FAF9F6;
+    background-color:#fffbf5;
 }
 
 *{
@@ -186,7 +186,7 @@ iframe{
     font-size: 26px;
     width: 80px;
     height: 80px;
-    background-color: #FAF9F6;
+    background-color: #fffbf5;
     color: #333;
     cursor: pointer;
     outline: none;
@@ -201,7 +201,7 @@ iframe{
 
 #backtotop:hover, #backtotop:focus{
     background-color: #333;
-    color: #FAF9F6;
+    color: #fffbf5;
 }
 .btnEntrance{
     animation-duration: 0.5s;
