@@ -15,6 +15,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Source Code Pro', monospace, sans-serif;
+    text-transform: lowercase;
 }
 
 .logo{
@@ -135,6 +136,19 @@ iframe{
     border-radius: 25px;
 }
 
+.mailcon{
+    position: fixed;
+    bottom: 10px;
+    left: 160px;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    transition: all;
+    transition-duration: .2s;
+    transition-timing-function: ease-in-out;
+    transition-property: all;
+}
+
 .twit{
     position: fixed;
     bottom: 10px;
@@ -174,7 +188,7 @@ iframe{
     transition-property: all;
 }
 
-.cd:hover, .cam:hover, .twit:hover{
+.cd:hover, .cam:hover, .twit:hover, .mailcon:hover{
     bottom: 30px;
 }
 
@@ -459,12 +473,13 @@ textarea:valid~label{
     transition-timing-function: ease-in-out;
     transition-duration: .2s;
     transition-property: all;
+    font-size: 60px;
   }
   
   .carousel-button:hover{
     color: white;
     background-color: rgba(0, 0, 0, .2);
-    font-size: 40px;
+    font-size: 80px;
   }
 
   .carousel-button.prev {
