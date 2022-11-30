@@ -378,7 +378,7 @@ textarea:valid~label{
     transition: all 0.5s ease 0s;
 }
 
-.icon:hover, .icon2:hover, .icon3:hover, .icon4:hover{
+.icon:hover, .icon2:hover, .icon3:hover, .icon4:hover, .icon5:hover{
     cursor: pointer;
     opacity: 100%;
 }
@@ -404,6 +404,15 @@ textarea:valid~label{
 .icon4{
     height: 150px;
     width: 150px;
+    padding: 5px 5px;
+    float: right;
+    opacity: 60%;
+    transition: all 0.5s ease 0s;
+}
+
+.icon5{
+    height: 65px;
+    width: 350px;
     padding: 5px 5px;
     float: right;
     opacity: 60%;
